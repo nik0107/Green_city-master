@@ -1,0 +1,36 @@
+.table-menu {
+    background-color: #666666;
+}
+.start {
+    background: url(../img/banner.png) ;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.start, .table-menu {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+.table-menu td, .start td, a {
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+td.logo {
+    text-align: left;
+}
+
+.bodystyle {
+    margin: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    color: #999999;
+}
+.bodystyle h3 {
+    color: #6DC72A;
+}
