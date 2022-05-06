@@ -9,9 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .start, .table-menu {
+    margin: 0;
+    text-align: center;
     margin: 0 auto;
     width: 1200px;
-    text-align: center;
 }
 .table-menu td, .start td, a {
     text-align: center;
