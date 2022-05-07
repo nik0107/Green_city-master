@@ -35,3 +35,21 @@ td.logo {
 .bodystyle h3 {
     color: #6DC72A;
 }
+.button {
+    color: black;
+    background: url(../img/submit.png)
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-style: oblique;
+    
+}
+.textype {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    color: #999999;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
