@@ -8,6 +8,22 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.content-wrapper {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content-wrapper div {
+    width: 50%;
+    text-align: center;
+}
+.content-wrapper h3 {
+    color: #6DC72A;
+}
+.content-wrapper p {
+    color: #999999;
+}
 .start, .table-menu {
     margin: 0;
     text-align: center;
@@ -60,6 +76,12 @@ td.logo {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .footer {
     display: flex;
     justify-content: center;
@@ -68,6 +90,43 @@ td.logo {
     background-color: #666666;
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 1200px;
+    color: white;
+    padding: 20px 0;
+}
+.social-links {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.social-links p, .copyright p {
+    text-align: center;
+}
+.social-links p {
+    margin: 0;
+}
+.social-links a {
+    text-decoration: underline;
+}
+.news {
+    width: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.news h3 {
+    color: #6DC72A;   
+}
+.news p {
+    color: #999999;
+}
+.content {
+    background: url(../img/banner.png);
+    width: 1200px;
+    align-items: center;
+    color: white;
+    display: flex;
+    text-align: center;
 }
